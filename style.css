@@ -1,0 +1,144 @@
+
+
+
+
+
+ /* For PC Screen   */ 
+.navbar-brand img{
+    width: 50px;
+}
+.top-Name{
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.nav-Links{
+    text-align: right;
+}
+.nav-Links{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+.nav-Links a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-size: 15px;    
+    font-weight: bold; 
+}
+.nav-Links div::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(255, 101, 62);
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+.nav-Links div:hover::after{
+    width: 100%;
+}
+
+
+/* For Phone Screen  */
+.Toggle-links ul li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+.Toggle-links ul li a{
+    text-decoration: none;
+    color:rgb(61, 61, 61);
+    font-size: 15px;   
+    font-weight: bold; 
+}
+.Toggle-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(255, 101, 62);
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+.Toggle-links ul li:hover::after{
+    width: 30%;
+}
+
+
+ /*  Home page   */
+ .hbg-text{
+    color:#fff9eb;
+    font-weight:bold;
+    font-size: 65px;
+ }
+ #hbg-text{
+    color:#fff9eb;
+    font-weight:bold;
+    font-size: 55px;
+ }
+.card2{
+    background-image: linear-gradient(rgba(2, 0, 19, 0.582),rgba(0, 0, 0, 0.45)), url(image/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: tomato;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+
+
+
+
+ 
+
+
+
+/* For PC Screen  */
+@media(min-width: 950px){
+    div .hide-Toggle{
+        display: none;
+    }
+}
+
+/* For Phone Screen  */
+@media(max-width: 950px){
+    div .hide-Menu{
+        display: none;
+    }
+    div .top-Name{
+        display: none;
+    }
+    div .hbg-text{
+        font-size: 45px;
+    }
+    div #hbg-text{
+        font-size: 45px;
+    }
+
+
+}
+
+@media(max-width: 500px){
+    div .hbg-text{
+        font-size: 30px;
+    }
+    div #hbg-text{
+        font-size: 30px;
+    }
+    .text-box img{
+        display: none;
+    }
+}
+
+

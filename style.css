@@ -82,7 +82,7 @@
  }
 .card2{
     background-image: linear-gradient(rgba(2, 0, 19, 0.582),rgba(0, 0, 0, 0.45)), url(image/bg.jpg);
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     position: relative;
     min-height: 100vh;

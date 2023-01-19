@@ -1,8 +1,5 @@
 
 
-
-
-
  /* For PC Screen   */ 
 .navbar-brand img{
     width: 50px;
@@ -69,33 +66,6 @@
 }
 
 
- /*  Home page   */
- .hbg-text{
-    color:#fff9eb;
-    font-weight:bold;
-    font-size: 65px;
- }
- #hbg-text{
-    color:#fff9eb;
-    font-weight:bold;
-    font-size: 55px;
- }
-.card2{
-    background-image: linear-gradient(rgba(2, 0, 19, 0.582),rgba(0, 0, 0, 0.45)), url(image/bg.jpg);
-    /* background-position: center; */
-    background-size: cover;
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-}
-.text-box{
-    width: 90%;
-    color: tomato;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-}
-
 
 
 
@@ -119,26 +89,12 @@
     div .top-Name{
         display: none;
     }
-    div .hbg-text{
-        font-size: 45px;
-    }
-    div #hbg-text{
-        font-size: 45px;
-    }
 
 
 }
 
 @media(max-width: 500px){
-    div .hbg-text{
-        font-size: 30px;
-    }
-    div #hbg-text{
-        font-size: 30px;
-    }
-    .text-box img{
-        display: none;
-    }
+
 }
 
 

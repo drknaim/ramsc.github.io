@@ -1,5 +1,20 @@
+.carousel-item{
+    background-position: center; background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    min-width: 200px;
+}
 
+.container{
+    margin-bottom: 40px;
+}
+.navbar{
+    border-radius: 15px;
+}
 
+.categories img{
+    width: 100px;
+}
  /* For PC Screen   */ 
 .navbar-brand img{
     width: 50px;
@@ -89,12 +104,22 @@
     div .top-Name{
         display: none;
     }
-
+    .carousel-item{
+        background-position: center; background-size: cover;
+        position: relative;
+        min-height: 600px;
+        min-width: 200px;
+    }
 
 }
 
-@media(max-width: 500px){
-
+@media(max-width: 575px){
+    .carousel-item{
+        background-position: center; background-size: cover;
+        position: relative;
+        min-height: 400px;
+        min-width: 200px;
+    }
 }
 
 
